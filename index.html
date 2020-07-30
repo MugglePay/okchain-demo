@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<!-- saved from url=(0023)https://www.heytea.com/ -->
+<html lang="zh-CN"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="keywords" content="喜茶HEYTEA,灵感之茶，一杯茶激发一份灵感！">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>喜茶HEYTEA x MugglePay</title>
+    <link rel="icon" href="https://www.heytea.com/img/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="./reset.css">
+    <link rel="stylesheet" href="./swiper.css">
+    <link rel="stylesheet" href="./animate.min.css">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="stylesheet" href="./screen.css">
+  </head>
+
+  <body style="">
+    
+    <div class="positionDiv clearfix">
+      <!--导航-->
+      <div class="header">
+      <div class="logo">
+        <img src="logo_2.png">
+      </div>
+      <ul class="nav-list">
+        <li></li>
+        <li></li>
+        <li>
+          <a href="https://mugglepay.com/">Demo by MugglePay</a>
+        </li>
+      </ul>
+    </div>
+    <!--导航结束-->
+    <div class="banner_bg"><img class="pc" src="bg1.jpg"> <img class="m" src="m-bg1.jpg"></div>
+    <!--背景大图结束-->
+    </div>
+    <!--产品列表-->
+    <div class="prod prod_1" id="tea">
+      <div class="prod_con">
+        <div class="prod_txt  wow fadeIn animated" data-wow-duration="0.5s" data-wow-delay="0.1s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.1s; animation-name: fadeIn;">
+          <h2>原创芝士茗茶</h2>
+          <div class="pc_show">
+            <p>将咸芝士与天然茶香融合的“奇思妙想”为喜茶原创。备受消费者推崇的原创芝士茗茶系列</p>
+            <p>选用进口新西兰乳源浓醇芝士，口感绵密，层层叠进搭配幽香清醇的茶香，两者相交衬托，妙不可言</p>
+          </div>
+          <p onClick="sendPayment(1.6)">
+            <b>Pay with TUSDK</b>
+            <img src="https://cdn.mugglepay.com/pay/media/icons16/usdk.png" height="25px">
+          </p>
+        </div>
+        <div class="pro_box  wow fadeIn  animated" data-wow-duration="3s" data-wow-delay="0s" data-wow-offset="-100" style="visibility: visible; animation-duration: 3s; animation-delay: 0s; animation-name: fadeIn;">
+          <div class="pro_line wow fadeIn animated" data-wow-duration="4s" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 4s; animation-delay: 0.5s; animation-name: fadeIn;"></div>
+          <div class="sz wow animated" data-wow-duration="1s" data-wow-delay="0.1s" data-wow-offset="170" style="visibility: visible; animation-duration: 1s; animation-delay: 0.1s; animation-name: line-sz;"></div>
+          <div class="yz1 wow fadeIn animated" data-wow-duration="1s" data-wow-delay="0.1s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.1s; animation-name: line-yz1;"></div>
+          <div class="yz2 wow fadeIn animated" data-wow-duration="1.8s" data-wow-delay=".5s" style="visibility: visible; animation-duration: 1.8s; animation-delay: 0.5s; animation-name: fadeIn;"></div>
+        </div>
+      </div>
+    </div>
+    <div class="prod prod_2">
+      <div class="prod_con">
+        <div class="pro_box  wow fadeIn  animated" data-wow-duration="5s" data-wow-delay="0s" data-wow-offset="0" style="visibility: visible; animation-duration: 5s; animation-delay: 0s; animation-name: fadeIn;"></div>
+        <div class="prod_txt  wow fadeIn animated" data-wow-duration="1s" data-wow-delay="0.1s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.1s; animation-name: fadeIn;">
+          <h2>鲜茶水果系列</h2>
+          <p>清甜饱满的鲜茶水果系列的推出<br>旨在让顾客可以享受水果与好茶结合的美妙口感</p>
+          <p>精选优质茶叶为茶底，以天然糖分温润中和<br>诠释出清爽丰富的口感</p>
+          <br />
+          <p onClick="sendPayment(2.45)">
+            <b>Pay with TUSDK</b>
+            <img src="https://cdn.mugglepay.com/pay/media/icons16/usdk.png" height="25px">
+          </p>
+        </div>
+        <div class="pro_box2 wow fadeInRight animated" data-wow-duration="1s" data-wow-delay="0.1s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.1s; animation-name: fadeInRight;">
+          <div class="sw wow pulse animated" data-wow-duration="1s" data-wow-delay="0s" data-wow-iteration="2" style="visibility: visible; animation-duration: 1s; animation-delay: 0s; animation-iteration-count: 2; animation-name: pulse;"></div>
+        </div>
+
+      </div>
+    </div>
+    <div class="prod prod_3">
+      <div class="prod_con">
+        <div class="prod_txt wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s" style="visibility: hidden; animation-duration: 1s; animation-delay: 0.1s; animation-name: none;">
+          <h2>轻芝士茗茶系列</h2>
+          <p>将新西兰进口芝士与鲜奶精心配比<br>创造出口感绝佳的轻盈质地</p>
+          <p>恬淡矜持，丰盈却不腻人，轻负担之选</p>
+          <br />
+          <p onClick="sendPayment(3.85)">
+            <b>Pay with TUSDK</b>
+            <img src="https://cdn.mugglepay.com/pay/media/icons16/usdk.png" height="25px">
+          </p>
+        </div>
+        <div class="pro_box"></div>
+        <div class="pro_box2 wow fadeIn " data-wow-duration="4s" data-wow-delay="0.5s" style="visibility: hidden; animation-duration: 4s; animation-delay: 0.5s; animation-name: none;"></div>
+        <div class="pro_box3 wow fjani" data-wow-duration="2.5s" data-wow-delay="0s" style="visibility: hidden; animation-duration: 2.5s; animation-delay: 0s; animation-name: none;"> </div>
+      </div>
+    </div>
+    <div class="prod prod_4">
+      <div class="prod_con">
+        <div class="prod_txt wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s" style="visibility: hidden; animation-duration: 1s; animation-delay: 0.1s; animation-name: none;">
+          <h2>当季水果限定系列</h2>
+          <p>四季轮替，每个季节都有其独特的气质及产物<br>为了呈现当季最新鲜的风味，喜茶推出季节限定茶饮系列</p>
+          <p>选用鲜果搭配定制茶底，果香融入茶韵，让人心生雀跃</p>
+          <br />
+          <p onClick="sendPayment(2.66)">
+            <b>Pay with TUSDK</b>
+            <img src="https://cdn.mugglepay.com/pay/media/icons16/usdk.png" height="25px">
+          </p>
+        </div>
+        <div class="pro_box wow fadeIn " data-wow-duration="5s" data-wow-delay="0s" data-wow-offset="-100" style="visibility: hidden; animation-duration: 5s; animation-delay: 0s; animation-name: none;"></div>
+        <div class="pro_box2 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s" style="visibility: hidden; animation-duration: 1s; animation-delay: 0.5s; animation-name: none;"></div>
+        <div class="pro_box3 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.8s" style="visibility: hidden; animation-duration: 1s; animation-delay: 0.8s; animation-name: none;"></div>
+      </div>
+    </div>
+    <div>
+      <div>
+        The website is for demo purpose and not for commercial use. Please contact business@mugglepay.com
+      </div>
+    </div>
+    <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
+    <script charset="utf-8" src="js"></script><script src="main.js" type="text/javascript"></script>
+    <script type="text/javascript" src="swiper-3.4.1.jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.nav.js"></script>
+    <script type="text/javascript" src="swiper.animate1.0.2.min.js"></script>
+    <script type="text/javascript" src="wow.js"></script>
+    <script type="text/javascript" src="main(1).js"></script>
+    <script>
+      function sendPayment(amount) {
+        var amountStr = amount || '1.8';
+        window.location = 'https://invoice.mugglepay.com/companies/?id=MP90C3940EB00C&amount=' + amountStr + '&currency=USD&lang=en';
+      }
+
+      var wow = new WOW({
+        boxClass: 'wow',
+        animateClass: 'animated',
+        offset: 220,
+        mobile: true,
+        live: true
+      });
+      wow.init();
+
+
+      // var shopUrl = "https://test.heytea.com/api/service-sale/openapi/shop";
+
+      let shopUrl= "https://go.heytea.com/api/service-sale/openapi/shop";
+      //门店
+      var index = {
+        getStoreList:function() {
+          var _this = this;
+          $.ajax({
+            type: "get",
+            url: shopUrl,
+            cache: false,
+            dataType: "json",
+            success: function (response){
+              if (response.code === 0) {
+                _this.RenderStore(response.data);
+              } else {
+                this.error();
+              }
+            },
+            error:function () {
+              alert("门店列表加载失败！");
+            }
+          });
+        },
+        RenderStore:function(data) {
+          $.each(data, function(i,val) {
+            var areas = val.area;
+            var list = val.store;
+            var area_id = val.area_id;
+
+            $('#storeCon').append("<div class='store_list  wow slideInUp ire' data-wow-duration='.8s' data-wow-delay='0s' data_area="+val.area_id+"><h2 class='store_area'>"+areas+"</h2><ul class='store_item clearfix'></ul></div>")
+
+            $.each(list, function(i,store) {
+              var s_id = store.area_id
+              $.each($('.ire'),function(i){
+                var data_id = $(this).attr("data_area");
+                if(data_id==s_id) {
+                  $(this).find('.store_item').append("<li data-x="+store.dataX+" data-y="+store.dataY+" data-content="+store.name+">"+store.name+"</li>")
+                }
+              })
+
+            });
+          });
+        }
+      }
+      
+      index.getStoreList();
+      
+    </script>
+
+      <script>
+      var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?a8f092f84053be3765bfad3fc89256e8";
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s);
+      })();
+      </script>
+      <script>
+      var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?24e22f350777c840b7dcf3743b773722";
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s);
+      })();
+      </script>
+<script type="text/javascript" src="stats" charset="UTF-8"></script>
+  
+
+</body></html>
